@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.App {
+  width: 1300px;
+  height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  /* font-family: "Neucha", cursive; */
+  font-family: var(--default-regular-font, -apple-system),BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Ubuntu,Cantarell,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  padding-top: 80px;
+  margin: auto;
+}
+
+.App-header {
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 35px;
+  margin-top:70px;
+  color: black;
+  z-index: 1;
+  text-align: center;
+}
+
+@media (max-width: 2000px){
+  /* .App-header{
+    margin: 15px 0;
+    font-size: 35px;
+  } */
+}
+
+.left {
+  margin-left: 0%;
+}
+
+.right {
+  margin-left: 0%;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.container{
+  width: 50%;
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: inline-block;
+  /* margin-left: 10%; */
+  position: relative;
+}
+
+.box{
+  width: 70%;
+  margin: auto;
+  background-color: #efefef;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 8px -2px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+h2{
+  margin: 0px;
+  text-align: center;
+}
+
+h1{
+  margin: 0px;
+  text-align: center;
+}
+
+.side_title{
+  font-size: 80px;
+}
+
+.slidercontainer{
+  /* margin: 0 0% !important;
+  width: 14%; */
+  width: 47.9px;
+  display: inline-block;
+}
+
+.allSliders{
+  /* display: flex;
+  align-items: center; */
+  position: absolute;
+  left: 35px;
+  top: 103px;
+  
+}
+
+.center{
+  margin: auto;
+  margin-top: -4px;
+  display: block;
+  width: 100%;
+  padding-bottom: 400px;
+  padding-top: 5px;
+}
+
+.center .box{
+  width: 87%;
+}
+
+#shapframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+#similarMatchups{
+  margin-top: 5px;
+}
+
+#shapbox{
+  height: 170px;
+}
+
+#clustering{
+  width: 48%;
+  margin: auto;
+  display: block;
+}
+
+.team_logo{
+  width: 100%;
+  max-width: 170px;
+  display: block;
+  margin: auto;
+}
+
+.teamselector > select{
+  margin: auto;
+  display: block;
+}
+
+.small_team_logo{
+  width: 100%;
+  max-width: 50px;
+}
+
+#tooltip{
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  opacity: 0;
+  max-width: 200px;
+  word-wrap: break-word;
+  z-index: 9999999;
+}
+
+.tooltip-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.popup-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 31px;
+}
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  overflow-y: scroll;
+}
+
+.popup-text {
+  display: block;
+  width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 3%;
+}
+
+
+.popup-enabletutorial {
+  display: block;
+  width: 10%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.teamselector{
+  min-height: 190px;
+}
+
+.sliderbox{
+  position: relative;
+  height: 295px;
+}
+
+.sliderbox > div{
+  position: absolute;
+}
+
+table{
+  width: 100%;
+}
+
+.date_td{
+  width: 100px;
+  width: 20%;
+}
+
+.home_td{
+  width: 120px;
+  width: 26%;
+  text-align: right;
+}
+
+.matchup_td{
+  width: 60px;
+  width: 8%;
+  text-align: center;
+}
+
+.away_td{
+  width: 120px;
+  width: 25%;
+  text-align: left;
+}
+
+td{
+  display: inline-block;
+}
+
+.winprob > p{
+  margin: 0px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;  
+}
+
+
+.yaxis{
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  background-image: url("https://i.imgur.com/ASQ7wKp.png");
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transform: rotate(270deg);
+  width: 360px;
+  height: 60px;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 50px;
+}
+
+.xaxis{
+  position: absolute;
+  left: 340px;
+  top: 540px;
+  background-image: url("https://i.imgur.com/ASQ7wKp.png");
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 360px;
+  height: 60px;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 50px;
+}
+
+.highcharts-root{
+  contain: strict;
+}
+
+.highcharts-axis-labels{
+  transform: translate(-10px, 0px);
+}
+
+.td_text_container{
+  position: relative;
+  display: inline-block;
+  width: 231px;
+  height: 50px;
+}
+
+.td_text{
+  position: absolute;
+  top: 17px;
+  right: 6px;
+}
+
+.td_text_right{
+  position: absolute;
+  top: 17px;
+  left: 6px;
+}
+
+.highcharts-exporting-group{
+  display: none;
+}
+
+.possessions_display{
+  bottom: 0px;
+  font-weight: bold;
+  font-size: 22px;
+}

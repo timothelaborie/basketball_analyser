@@ -1,0 +1,13 @@
+name: b5-winning-in-basketball
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+ - python == 3.10.11
+ - pandas == 1.4.4
+ - numpy == 1.23.1
+ - lightgbm == 3.3.5
+ - shap == 0.41.0
+ - matplotlib == 3.7.1
