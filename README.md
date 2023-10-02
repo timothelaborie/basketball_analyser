@@ -5,4 +5,9 @@ I worked on this project in early 2023 with 3 teammates, and primarily worked on
 
 You can read the paper [here](https://github.com/timothelaborie/basketball_analyser/blob/main/paper/ACM_Conference_Version.pdf)
 
+# Install guide
+If you want to try it out, download the [zip](https://github.com/timothelaborie/basketball_analyser/archive/refs/heads/main.zip), run the start.bat file, then go [here](https://github.com/timothelaborie/basketball_analyser/archive/refs/heads/main.zip)
+
+# Poster
+
 <img src="https://raw.githubusercontent.com/timothelaborie/basketball_analyser/main/paper/Poster.png"/>
