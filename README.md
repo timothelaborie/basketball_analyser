@@ -5,8 +5,12 @@ I worked on this project in early 2023 with 3 teammates, and primarily worked on
 
 You can read the paper [here](https://github.com/timothelaborie/basketball_analyser/blob/main/paper/ACM_Conference_Version.pdf)
 
-# Install guide
-If you want to try it out, download and extract this [zip](https://github.com/timothelaborie/basketball_analyser/archive/refs/heads/main.zip), run the start.bat file, then go [here](https://timothelaborie.github.io/basketball_analyser/)
+# Live demo
+
+http://b5-winning-in-basketball.course-xai-iml23.isginf.ch/
+
+# Local Install guide
+If you want to try it out locally, download and extract this [zip](https://github.com/timothelaborie/basketball_analyser/archive/refs/heads/main.zip), run the start.bat file, then go [here](https://timothelaborie.github.io/basketball_analyser/)
 
 # Poster
 
