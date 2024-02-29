@@ -9,8 +9,10 @@ You can read the paper [here](https://github.com/timothelaborie/basketball_analy
 
 http://b5-winning-in-basketball.course-xai-iml23.isginf.ch/
 
+In case the live demo is not working anymore, here is a [screenshot](https://github.com/timothelaborie/basketball_analyser/blob/main/screenshot.png?raw=true)
+
 # Local Install guide
-If you want to try it out locally, download and extract this [zip](https://github.com/timothelaborie/basketball_analyser/archive/refs/heads/main.zip), run the start.bat file, then go [here](https://timothelaborie.github.io/basketball_analyser/)
+If you want to try running the server locally, download and extract this [zip](https://github.com/timothelaborie/basketball_analyser/archive/refs/heads/main.zip), run the start.bat file, then go [here](https://timothelaborie.github.io/basketball_analyser/)
 
 # Poster
 
